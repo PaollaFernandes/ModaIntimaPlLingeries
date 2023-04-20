@@ -1,0 +1,1 @@
+/* Arquivo responsavel pela automoção */
