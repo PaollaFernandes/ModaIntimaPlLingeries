@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css" >
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <title>..:: Moda Intima Pllingerie ::..</title>
 </head>
 <body>
    <!-- Aula 24/04/2023- HTML -->
+   <!--Início Menu responsivo-->
    <header id="header">
-        <a id= "logo" href="index.html"> <img src="./img/pl lingerieslogo1.png" alt="logo Moda Intima PlLingeries">
+        <a id= "logo" href="index.html"> <img src="./img/pl logo 2.png" alt="logo Moda Intima PlLingeries">
             <nav id="nav" >
                 <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="trus" aria-controls="menu" aria-expanded="false">
                     <span id="hamburguer"></span>
@@ -23,7 +25,72 @@
                     <!-- atalho para copiar conteudo> Alt + shift + seta para baixo -->
                 </ul>
             </nav>
-
    </header> 
+   <!--Fim Menu responsivo-->
+   <!--Início Carousel Página Principal-->
+   <div id="carouselExempleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="600">
+                <img 
+                src="./img/carouse2.png" 
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item " data-bs-interval="300">
+                <img 
+                src="./img/carouse3.png"
+                class="d-block w-100" 
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item " data-bs-interval="300">
+                <img 
+                src="./img/carouse4.png"
+                class="d-block w-100" 
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item " data-bs-interval="300">
+                <img 
+                src="./img/carouse_1.jpeg" 
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>
+            <div class="carousel-item " data-bs-interval="300">
+                <img 
+                src="./img/carrouse1.png" 
+                class="d-block w-100"
+                alt="..."
+                />
+            </div>   
+        </div>
+        <!--Fim imagem Carousel-->
+        <!--Inicio controle do Carousel-->
+        <button
+            class="carousel-control-prev"
+            data-bs-target="#carouselExempleInterval"
+            type="button"
+            data-bs-slide="prev" 
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            data-bs-target="#carouselExempleInterval"
+            type="button"
+            data-bs-slide="next" 
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+   </div>
+   <!--Fim de controle do Carousel-->
+   <!--Fim do Carousel-->
 </body>
+
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 </html>
