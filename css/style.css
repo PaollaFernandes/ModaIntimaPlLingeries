@@ -51,13 +51,44 @@ body, ul {
 #btn-mobile {
     display: none;
 }
-#carouselExempleInterval {
-    position:relative;
+#carouselExampleInterval {
+    position: relative;
     z-index: 10;
-    padding-top: 85px;
+    padding-top: 75px;
     width: 100%;
+    height: auto ;
 }
-#carouselExempleInterval: img {
-    height: 200px;
+#carouselExampleInterval img {
+    height: 400px ;
+    width: auto;
 }
 
+/*CSS Estilos Banner*/
+.section-banner-home {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    padding: 50px;
+    background-color: #005caa;
+}
+:section-banner-home img {
+    height: 400px;
+    width: auto; /*Verificar responsivo */
+}
+.section-banner-home .texto-banner h1 {
+    font-size:  30px;
+    width: 60px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.section-banner-home .texto-banner a {
+    color: rgb( 0, 0, 0);
+    text-decoration: none;
+    background-color: #fff;
+    padding: 4px 14px;
+    font-size: 15px;
+}
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
