@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Tangerine);
 /* Arquivo responsavel pelos estilos */
 /*Aula 24/04/2023 - Estilos do Menu */
 body, ul {
@@ -15,7 +16,7 @@ body, ul {
 }
 
 #menu a:hover {
-    color: crimson;
+    color: rgb(252, 2, 231);
     font-size: 1.6em;
     transition: 0,3s;
     text-shadow: 4px 4px 6px #0000007a;
@@ -51,16 +52,26 @@ body, ul {
 #btn-mobile {
     display: none;
 }
+/*
+.container {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding-top: 75px;
+}
+*/
 #carouselExampleInterval {
     position: relative;
     z-index: 10;
-    padding-top: 75px;
     width: 100%;
+    padding-top: 85px;
+    box-shadow: 4px 4px 6px #0000007a;
+    transition: 0,3s;
 }
 #carouselExampleInterval img {
     height: auto;
     width: auto;
 }
+
 
 /*CSS Estilos Banner*/
 .section-banner-home {
@@ -68,9 +79,9 @@ body, ul {
     height: 600px;
     margin-top: 10px;
     padding: 50px;
-    background-color: #005caa;
+    background-color: #ff00dd;
 }
-:section-banner-home img {
+.section-banner-home img {
     height: 400px;
     width: auto; /*Verificar responsivo */
 }
@@ -79,17 +90,20 @@ body, ul {
     width: 60px;
     font-weight: 500;
     padding-bottom: 20px;
+    color: white;
 }
 .section-banner-home .texto-banner a {
     color: rgb( 0, 0, 0);
     text-decoration: none;
-    background-color: #fff;
+    background-color: rgb(0, 253, 253);
     padding: 4px 14px;
     font-size: 15px;
+    font-weight: bold;
 }
 .section-banner-home .texto-banner p {
     font-size: 15px;
     margin-bottom: 20px;
+    color: white;
 }
 /* Fim css estilos banner */
 /*Inicio css destaque */
