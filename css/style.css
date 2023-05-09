@@ -144,3 +144,50 @@ body, ul {
 .destaque img {
     height: 220px;
 }
+/*Fim CSS Destaque */
+
+/*Inicio CSS Novidades */
+
+.novidades .text-body {
+    width: 80%;
+    margin: 70% auto;
+}
+
+.novidades h2 {
+    color: #000;
+}
+
+.novidades p {
+    color:rgb( 0, 0, 0);
+}
+
+.novidades a {
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: violet;
+    padding: 6px 12px;
+    background-color: rgb(0, 68, 194);
+    font-weight: 400;
+}
+/* Fim CSS Novidades */
+/* Inicio CSS Galeria */
+
+.galeria {
+    margin: 60px auto 20px;
+}
+
+.galeria {
+    text-align: center;
+    font-size: 24px;
+}
+.galeria p {
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+
+.galeria .gallery {
+    width: 30%;
+    margin: 14px auto 50%;
+}
+
