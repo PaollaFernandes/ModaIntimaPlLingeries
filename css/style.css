@@ -6,7 +6,7 @@ body, ul {
     padding: 0px;
 }
 #menu a {
-    color:black;
+    color: #04f8ec;
     text-decoration: none;
     font-family: sans-serif;
     font-size: 1.25em;
@@ -19,10 +19,10 @@ body, ul {
     color: rgb(252, 2, 231);
     font-size: 1.6em;
     transition: 0,3s;
-    text-shadow: 4px 4px 6px #0000007a;
+    text-shadow: 4px 4px 6px #f1ecec7a;
 }
 #logo img:hover {
-    box-shadow: 4px 4px 6px #0000007a;
+    box-shadow: 4px 4px 6px #ffffff7a;
     transition: 0.3s;
 }
 #logo img {
@@ -42,7 +42,7 @@ body, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #000000;
 }
 #menu {
     display: flex;
@@ -228,7 +228,7 @@ body, ul {
     text-decoration: underline;
     text-decoration-color: violet;
     padding: 6px 12px;
-    background-color: rgb(0, 68, 194);
+    background-color: rgb(194, 0, 178);
     font-weight: 400;
 }
 /* Fim CSS Novidades */
@@ -266,6 +266,18 @@ body, ul {
 .galeria .gallery img {
     width: 80%;
     height: 80%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    display: block;
+}
+.galeria .gallery img:hover {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05)
+
+   /* padding-left: 10px;
+    transition: 0.6s;
+    transform: scale(1.5);*/
 }
 /* Fim CSS Galeria */
 
@@ -277,6 +289,11 @@ body, ul {
 .rodape .container img {
     height: 50%;
     width: 50%;
+    padding-left: 10px;
+    transition: .6s;
+}
+.rodape .container img:hover {
+    transform: scale(1.5)
 }
 .rodape .info-contato p {
     margin: 0;
