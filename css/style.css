@@ -292,14 +292,16 @@ body, ul {
 .rodape {
     padding: 50px 50px 0;
 }
-.rodape .container img {
+.rodape .container #logo_rodape {
     height: 50%;
     width: 50%;
     padding-left: 10px;
     transition: .6s;
+    display: block;
 }
-.rodape .container img:hover {
-    transform: scale(1.5)
+.rodape .container #img-logo:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 .rodape .info-contato p {
     margin: 0;
@@ -318,6 +320,15 @@ body, ul {
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
+    padding-left: 0;
+    margin-left: 0.7rem;
+    transition: transform .3s;
+    border-radius: 5px; /*Arredondando div de objetos redes sociais*/
+}
+.rodape .redes-sociais img:hover {
+    z-index: 1;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.446);
 }
 .rodape p.direitos {
     text-align: center;
